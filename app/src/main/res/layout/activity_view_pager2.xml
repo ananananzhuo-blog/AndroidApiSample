@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ViewPager2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/cb_fengche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风车"
+            />
+        <CheckBox
+            android:id="@+id/cb_jingshen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="景深"
+            />
+        <CheckBox
+            android:id="@+id/cb_tuiya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推压"
+            />
+        <CheckBox
+            android:id="@+id/cb_fanghe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="方盒"
+            />
+        <CheckBox
+            android:id="@+id/cb_xuanzhuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="旋转"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#f00"
+        android:text="请手动选择要查看的效果，每次只能查看一个效果，选择多个效果，效果会重回，如果想重新预览需要退出页面重进" />
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

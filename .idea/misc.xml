@@ -4,7 +4,21 @@
     <asm skipDebug="false" skipFrames="false" skipCode="false" expandFrames="false" />
     <groovy codeStyle="LEGACY" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-3/aafe2395d6484474f4cf204f50c29d21/transformed/jetified-mvvmlib-1.0.13-SNAPSHOT/res/drawable/shp_item_recycle_normal.xml" value="0.3074074074074074" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/activity_recycle_demo.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/activity_recycle_view_list_adapter.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/activity_view_pager2.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/item_fullimage.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/item_text.xml" value="0.19519927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
